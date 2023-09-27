@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scope-test"
+version = "0.1.0"
+description = "PDF report generator"
+authors = ["Nikita Ustiuzhanin <zaebumba@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.1"
+numpy = "^1.26.0"
+Jinja2 = "^3.1.2"
+pdfkit = "^1.0.0"
+PyPDF2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
